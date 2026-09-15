@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=0891B2&center=true&vCenter=true&width=620&lines=Hey+%F0%9F%91%8B%2C+I'm+Satyaprakash!;Backend+%26+AI+Systems+Engineer;I+build+systems+that+think+%F0%9F%A4%96" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=0891B2&center=true&vCenter=true&width=620&lines=Hey+%F0%9F%91%8B%2C+I'm+Satyaprakash!;4th+Year+AIML+Student;Backend+%26+AI+Systems+Engineer;I+build+systems+that+think+%F0%9F%A4%96" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -14,11 +14,11 @@
 
 <img align="right" alt="Coding" width="360" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif"/>
 
-I'm a **Computer Science student** who likes building backend systems that do genuinely hard things — extract real data from complex sources, run ML inference on documents, and serve it through clean APIs.
+I'm a **4th year AI & Machine Learning student** who builds backend systems and applied AI solutions that solve real problems — not just demos.
 
-🏥 Built a **multi-authority pharmaceutical regulatory platform** that autonomously crawls FDA, Health Canada, TGA, MedWatch & UK MHRA — concurrently — and detects drug safety label changes in real time.
+🏥 Built a **multi-authority pharmaceutical regulatory platform** that crawls FDA, Health Canada, TGA, MedWatch & UK MHRA concurrently and detects drug safety label changes in real time.
 
-✍️ Built a **custom OCR engine from scratch** — a CRNN model trained on IAM handwriting data. No Tesseract, no cloud APIs, no shortcuts.
+✍️ Built a **custom OCR engine from scratch** — a CRNN model trained on IAM handwriting data. No Tesseract, no cloud APIs.
 
 🎓 Built a **full LMS platform** (Campus Connect) with multi-role dashboards for students, faculty, and admins.
 
@@ -28,9 +28,9 @@ I'm a **Computer Science student** who likes building backend systems that do ge
 
 ## 🚀 More About Me
 
-- 🔍 I like problems where the data is messy, distributed, or locked inside PDFs and images
-- ⚙️ My stack is Python-first: **FastAPI, Django, asyncio, TensorFlow, OpenCV**
-- 🤖 I build applied ML systems — real inference pipelines wired into backends, not research demos
+- 🤖 **AIML student** — I don't just study ML theory, I build inference pipelines around real models
+- 🔍 I like problems where data is messy, distributed, or locked inside PDFs and images
+- ⚙️ My stack: **FastAPI · Django · TensorFlow · OpenCV · MongoDB · Redis · Pandas**
 - 🧪 I write tests (pytest) and think about production infra (nginx, systemd, Docker)
 - 📌 All serious projects are on [GitHub](https://github.com/Satya0418)
 - 📬 Reach out via [LinkedIn](https://linkedin.com/in/your-linkedin)
@@ -48,6 +48,15 @@ I'm a **Computer Science student** who likes building backend systems that do ge
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
+**AI / ML**
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
+
 **Backend & APIs**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -55,13 +64,11 @@ I'm a **Computer Science student** who likes building backend systems that do ge
 ![DRF](https://img.shields.io/badge/Django_REST-ff1709?style=for-the-badge&logo=django&logoColor=white)
 ![asyncio](https://img.shields.io/badge/asyncio-0891b2?style=for-the-badge&logo=python&logoColor=white)
 
-**AI / ML**
+**Databases**
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
 **Frontend**
 
@@ -69,14 +76,13 @@ I'm a **Computer Science student** who likes building backend systems that do ge
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
 
-**Databases & Infra**
+**Infra & Tools**
 
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
@@ -133,7 +139,7 @@ I'm a **Computer Science student** who likes building backend systems that do ge
       <p>Full-stack analytics dashboard with <strong>JWT authentication</strong> and 7 Chart.js visualizations on a grocery sales dataset. Three-page app: Landing, Login, Dashboard. Power BI report included.</p>
       <p>
         <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
-        <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
         <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white"/>
         <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
       </p>
