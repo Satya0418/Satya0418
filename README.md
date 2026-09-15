@@ -12,7 +12,7 @@
 
 ## 🧑‍💻 About Me
 
-<img align="right" alt="Coding" width="360" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif"/>
+<img align="right" alt="AI Systems Engineering Workspace" width="420" src="assets/workspace.jpg"/>
 
 I'm a **4th year AI & Machine Learning student** who builds backend systems and applied AI solutions that solve real problems — not just demos.
 
