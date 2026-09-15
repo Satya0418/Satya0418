@@ -1,236 +1,169 @@
-<div align="center">
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=0891B2&center=true&vCenter=true&width=600&lines=Hey+%F0%9F%91%8B%2C+I'm+Satyaprakash!;Backend+%26+AI+Systems+Engineer;I+build+systems+that+think+%F0%9F%A4%96" alt="Typing SVG" />
+</h1>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0891b2&height=120&section=header&text=&fontSize=0" width="100%"/>
-
-# Satyaprakash Yadav
-
-**Backend & AI Systems Engineer**
-
-*I build systems that extract, structure, and serve real-world data —*  
-*from regulatory documents to handwritten pages.*
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0891b2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
-[![Email](https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=0891b2)](mailto:your@email.com)
-[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Satya0418)
-
-</div>
+<p align="center">
+  <a href="https://linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://github.com/Satya0418"><img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white"/></a>
+</p>
 
 ---
 
-## What I Build
+## 🧑‍💻 About Me
 
-Every system I've built follows the same pattern: take messy, unstructured, or distributed data and turn it into something queryable, structured, and useful.
+<img align="right" alt="Coding" width="380" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif"/>
 
-```
-RAW DATA SOURCE          EXTRACTION               INTELLIGENCE
-(5 regulatory portals,   (async crawlers,         (normalization,
- handwritten pages,       OCR pipelines,           change detection,
- product catalogs)        PDF parsers)             ML inference)
-        |                      |                        |
-        └──────────────────────┴────────────────────────┘
-                                        |
-                               BACKEND API (FastAPI / Django)
-                                        |
-                               USER / EXPORT / UI
-```
+I'm a **Computer Science student** with a strong interest in building backend systems that actually do something hard — extract real data from complex sources, run ML inference on documents, and serve it all through clean APIs.
 
-<br/>
+🏥 Built a **multi-authority pharmaceutical regulatory platform** that autonomously crawls FDA, Health Canada, TGA, MedWatch & UK MHRA — concurrently — and detects drug safety label changes in real time.
 
-<div align="center">
+✍️ Built a **custom OCR engine from scratch** — a CRNN model trained on IAM handwriting data. No Tesseract, no cloud APIs.
 
-| 🔍 Data Extraction | 🤖 Applied ML | ⚙️ Backend APIs | 📊 Data Systems |
-|:---:|:---:|:---:|:---:|
-| Web crawlers | CRNN/CTC OCR | FastAPI | Normalization |
-| PDF parsers | TensorFlow/Keras | Django REST | Change detection |
-| Multi-source ingestion | OpenCV pipelines | asyncio | SQLite schemas |
+🎓 Built a **full LMS platform** (Campus Connect) with multi-role dashboards for students, faculty, and admins.
 
-</div>
+📊 Built a **sales analytics dashboard** with JWT auth and 7 interactive Chart.js visualizations.
 
 ---
 
-## Flagship Systems
+## 🚀 More About Me
 
-### 🏥 Medicine Safety Intelligence Platform
-> Multi-authority pharmaceutical regulatory intelligence — built as a freelance system.
-
-A backend that searches, crawls, and harmonizes drug safety data across **5 international regulatory authorities** simultaneously. When you search for a drug, the system fires 5 concurrent async scrapers, normalizes results through source-specific adapters, detects safety label revisions via SHA-256 hashing, and persists everything into a relational store.
-
-```
-Search: "Ozempic"
-        |
-FastAPI Orchestration Layer (app/api/drugs.py)
-        |   asyncio.gather()
-  ┌─────┴────────────────────────────────────────┐
-  🇺🇸 FDA SrLC  🍁 Health Canada  🇦🇺 TGA  🚨 MedWatch  🇬🇧 MHRA
-  └─────┬────────────────────────────────────────┘
-        |   (per source)
-Normalization Adapter → Change Detection (SHA-256 hash diff)
-        |
-SQLite: drugs + safety_labeling_changes tables
-        |
-REST API  ·  Web UI  ·  CSV / JSON Export
-```
-
-**What it handles:** Prescription labeling changes · Boxed Warnings · Adverse Reactions · Post-market surveillance · Class I/II/III recalls · UK MHRA bulletins · Canadian Drug Monographs
-
-**Subsystem:** Separate FastAPI-based PDF extractor service with its own test suite, Docker config, and hierarchical section/table extraction.
-
-**Stack:** `Python` `FastAPI` `asyncio` `SQLite` `BeautifulSoup` `pytest` `nginx` `systemd`
-
-[![Repository](https://img.shields.io/badge/Repository-0891b2?style=flat-square&logo=github&logoColor=white)](https://github.com/Satya0418/webcrawler)
+- 🔍 I like problems where the data is messy, distributed, or locked inside PDFs and images
+- ⚙️ My stack is Python-first: **FastAPI, Django, asyncio, TensorFlow, OpenCV**
+- 🤖 I build applied ML systems — not research papers, but real inference pipelines wired into backends
+- 🧪 I write tests (pytest) and think about production infra (nginx, systemd, Docker)
+- 📌 Most of my serious projects are on [GitHub](https://github.com/Satya0418)
+- 📬 Reach out via [LinkedIn](https://linkedin.com/in/your-linkedin)
 
 ---
 
-### ✍️ Parseon OCR Engine
+## 🛠️ Languages and Tools
 
-A custom handwriting recognition system trained from scratch — no Tesseract, no Google Vision, no cloud APIs.
+**Languages**
 
-The engine trains a **CRNN (CNN + BiLSTM + CTC)** model on the IAM Handwritten Forms dataset. At inference, it uses OpenCV to detect text regions on a full page, crops each line, preprocesses to match training format, and runs the model per line before assembling the full page text.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-```
-Full-Page Handwritten Image
-        |
-OpenCV Text-Region Detection
-(contour analysis → bounding boxes → line crops)
-        |   per line
-Preprocessing: resize → normalize → grayscale
-        |
-CRNN Inference:
-  CNN (feature extraction)
-    → BiLSTM (sequence modeling)
-       → CTC Decoder (character recognition)
-        |
-Assembled Page Text
-```
+**Backend & APIs**
 
-**Training:** Kaggle T4 GPU · IAM Forms Dataset · 60-epoch CRNN · character map generation
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![DRF](https://img.shields.io/badge/Django_REST-ff1709?style=for-the-badge&logo=django&logoColor=white)
+![asyncio](https://img.shields.io/badge/asyncio-0891b2?style=for-the-badge&logo=python&logoColor=white)
 
-**Frontend:** React (Vite) interface for image upload and result display
+**AI / ML**
 
-**Stack:** `Python` `TensorFlow/Keras` `OpenCV` `NumPy` `CRNN` `CTC Loss` `Kaggle` `React` `Vite`
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
 
-[![Repository](https://img.shields.io/badge/Repository-0891b2?style=flat-square&logo=github&logoColor=white)](https://github.com/Satya0418/parseon-ocr)
+**Frontend**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
+
+**Databases & Infra**
+
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
-## Supporting Projects
+## 🏆 Featured Projects
 
 <table>
-<tr>
-<td width="50%">
-
-**🎓 Campus Connect**
-
-Full LMS platform with three separate role dashboards (Student, Faculty, Admin). Custom AbstractUser model with role-based permissions. Course management, assignment submission, grading, communication.
-
-`Django` `DRF` `JWT` `React` `SQLite`
-
-[→ Repository](https://github.com/Satya0418/Campus_connect)
-
-</td>
-<td width="50%">
-
-**📈 BizAnalytics – Sales Analyzer**
-
-Full-stack analytics dashboard with JWT authentication. Seven Chart.js visualizations on a grocery sales dataset. Django backend serving templates and API. Three-page app: Landing, Login, Dashboard.
-
-`Django` `JWT` `Chart.js` `Vanilla JS` `SQLite`
-
-[→ Repository](https://github.com/Satya0418/Sales_Analyzer)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**🛍️ Product Compare**
-
-Django product comparison platform. Category/Product ORM models, user authentication, image upload with ImageField, media file serving.
-
-`Django` `SQLite` `Pillow`
-
-[→ Repository](https://github.com/Satya0418/compare)
-
-</td>
-<td width="50%">
-
-**🔗 React + Django Integration**
-
-Full-stack boilerplate — Django REST Framework backend with DRF serializers, CORS handling, and a React/Vite frontend consuming the API.
-
-`Django` `DRF` `React` `Vite`
-
-[→ Repository](https://github.com/Satya0418/-react-new-django)
-
-</td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏥 Medicine Safety Intelligence Platform</h3>
+      <p>Autonomously crawls <strong>5 international regulatory authorities</strong> (FDA, Health Canada, TGA, MedWatch, UK MHRA) in parallel. Detects drug safety label changes via SHA-256 hashing. REST API + Web UI + CSV export.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/asyncio-0891b2?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
+        <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white"/>
+        <img src="https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white"/>
+      </p>
+      <a href="https://github.com/Satya0418/webcrawler">
+        <img src="https://img.shields.io/badge/View_Repository-0891b2?style=for-the-badge&logo=github&logoColor=white"/>
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>✍️ Parseon OCR Engine</h3>
+      <p>Custom <strong>CRNN (CNN + BiLSTM + CTC)</strong> handwriting recognition — trained on IAM dataset via Kaggle. Full-page inference using OpenCV text-region detection. Zero external OCR engines.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white"/>
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white"/>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+      </p>
+      <a href="https://github.com/Satya0418/parseon-ocr">
+        <img src="https://img.shields.io/badge/View_Repository-0891b2?style=for-the-badge&logo=github&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎓 Campus Connect LMS</h3>
+      <p>Full learning management system with <strong>Student, Faculty, and Admin</strong> dashboards. Custom AbstractUser model, role-based permissions, course management, assignment submission, grading.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
+        <img src="https://img.shields.io/badge/DRF-ff1709?style=flat-square&logo=django&logoColor=white"/>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+        <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+      </p>
+      <a href="https://github.com/Satya0418/Campus_connect">
+        <img src="https://img.shields.io/badge/View_Repository-0891b2?style=for-the-badge&logo=github&logoColor=white"/>
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📈 BizAnalytics – Sales Analyzer</h3>
+      <p>Django backend with <strong>JWT authentication</strong> and 7 Chart.js visualizations on a grocery sales dataset. Three-page app: Landing, Login, Dashboard. Power BI report included.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
+        <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
+      </p>
+      <a href="https://github.com/Satya0418/Sales_Analyzer">
+        <img src="https://img.shields.io/badge/View_Repository-0891b2?style=for-the-badge&logo=github&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
 </table>
 
 ---
 
-## Tech Stack
-
-Derived from what I've actually built.
-
-**Languages**
-```
-Python (primary)    JavaScript (React frontends)
-```
-
-**AI / ML**
-```
-TensorFlow / Keras    OpenCV    CRNN architecture    CTC loss
-IAM dataset    Kaggle GPU training pipelines
-```
-
-**Backend**
-```
-FastAPI    Django    Django REST Framework
-asyncio    BeautifulSoup    requests
-```
-
-**Databases**
-```
-SQLite    Django ORM
-```
-
-**Infrastructure**
-```
-nginx    systemd    Docker    pytest    Linux deployment
-```
-
-**Frontend**
-```
-React    Vite    Chart.js    Vanilla JS
-```
-
----
-
-## GitHub Activity
+## 📊 GitHub Stats
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Satya0418&show_icons=true&theme=github_dark&hide_border=true&title_color=0891b2&icon_color=38bdf8&text_color=e6edf3&bg_color=0d1117)
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Satya0418&show_icons=true&theme=github_dark&hide_border=true&title_color=0891b2&icon_color=38bdf8&text_color=e6edf3&bg_color=0d1117&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satya0418&layout=compact&theme=github_dark&hide_border=true&title_color=0891b2&text_color=e6edf3&bg_color=0d1117&langs_count=6"/>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Satya0418&layout=compact&theme=github_dark&hide_border=true&title_color=0891b2&text_color=e6edf3&bg_color=0d1117&langs_count=6)
+</div>
+
+<div align="center">
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Satya0418&theme=dark&hide_border=true&stroke=0891b2&ring=0891b2&fire=38bdf8&currStreakLabel=38bdf8&background=0d1117)
 
 </div>
 
 ---
 
-## Connect
-
 <div align="center">
 
-If you're working on systems that need to extract intelligence from messy or distributed data sources — regulatory documents, handwritten records, multi-format pipelines — I'd be interested in talking.
+### 💬 "Build systems that actually solve problems — not just demos that look impressive."
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0891b2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
-[![Email](https://img.shields.io/badge/Email-Reach%20Out-0891b2?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+<img src="https://komarev.com/ghpvc/?username=Satya0418&label=Profile+Views&color=0891b2&style=flat-square" alt="Profile views" />
 
-</div>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0891b2&height=80&section=footer" width="100%"/>
 </div>
