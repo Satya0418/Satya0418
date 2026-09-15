@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=0891B2&center=true&vCenter=true&width=600&lines=Hey+%F0%9F%91%8B%2C+I'm+Satyaprakash!;Backend+%26+AI+Systems+Engineer;I+build+systems+that+think+%F0%9F%A4%96" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=0891B2&center=true&vCenter=true&width=620&lines=Hey+%F0%9F%91%8B%2C+I'm+Satyaprakash!;Backend+%26+AI+Systems+Engineer;I+build+systems+that+think+%F0%9F%A4%96" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -12,13 +12,13 @@
 
 ## 🧑‍💻 About Me
 
-<img align="right" alt="Coding" width="380" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif"/>
+<img align="right" alt="Coding" width="360" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif"/>
 
-I'm a **Computer Science student** with a strong interest in building backend systems that actually do something hard — extract real data from complex sources, run ML inference on documents, and serve it all through clean APIs.
+I'm a **Computer Science student** who likes building backend systems that do genuinely hard things — extract real data from complex sources, run ML inference on documents, and serve it through clean APIs.
 
 🏥 Built a **multi-authority pharmaceutical regulatory platform** that autonomously crawls FDA, Health Canada, TGA, MedWatch & UK MHRA — concurrently — and detects drug safety label changes in real time.
 
-✍️ Built a **custom OCR engine from scratch** — a CRNN model trained on IAM handwriting data. No Tesseract, no cloud APIs.
+✍️ Built a **custom OCR engine from scratch** — a CRNN model trained on IAM handwriting data. No Tesseract, no cloud APIs, no shortcuts.
 
 🎓 Built a **full LMS platform** (Campus Connect) with multi-role dashboards for students, faculty, and admins.
 
@@ -30,10 +30,12 @@ I'm a **Computer Science student** with a strong interest in building backend sy
 
 - 🔍 I like problems where the data is messy, distributed, or locked inside PDFs and images
 - ⚙️ My stack is Python-first: **FastAPI, Django, asyncio, TensorFlow, OpenCV**
-- 🤖 I build applied ML systems — not research papers, but real inference pipelines wired into backends
+- 🤖 I build applied ML systems — real inference pipelines wired into backends, not research demos
 - 🧪 I write tests (pytest) and think about production infra (nginx, systemd, Docker)
-- 📌 Most of my serious projects are on [GitHub](https://github.com/Satya0418)
+- 📌 All serious projects are on [GitHub](https://github.com/Satya0418)
 - 📬 Reach out via [LinkedIn](https://linkedin.com/in/your-linkedin)
+
+<br clear="right"/>
 
 ---
 
@@ -74,6 +76,7 @@ I'm a **Computer Science student** with a strong interest in building backend sy
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 
 ---
 
@@ -83,7 +86,7 @@ I'm a **Computer Science student** with a strong interest in building backend sy
   <tr>
     <td width="50%" valign="top">
       <h3>🏥 Medicine Safety Intelligence Platform</h3>
-      <p>Autonomously crawls <strong>5 international regulatory authorities</strong> (FDA, Health Canada, TGA, MedWatch, UK MHRA) in parallel. Detects drug safety label changes via SHA-256 hashing. REST API + Web UI + CSV export.</p>
+      <p>Autonomously crawls <strong>5 international regulatory authorities</strong> (FDA, Health Canada, TGA, MedWatch, UK MHRA) in parallel. Detects drug safety label changes via SHA-256 hashing. REST API + Web UI + CSV export. Production deployment with nginx + systemd.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
@@ -98,7 +101,7 @@ I'm a **Computer Science student** with a strong interest in building backend sy
     </td>
     <td width="50%" valign="top">
       <h3>✍️ Parseon OCR Engine</h3>
-      <p>Custom <strong>CRNN (CNN + BiLSTM + CTC)</strong> handwriting recognition — trained on IAM dataset via Kaggle. Full-page inference using OpenCV text-region detection. Zero external OCR engines.</p>
+      <p>Custom <strong>CRNN (CNN + BiLSTM + CTC)</strong> handwriting recognition trained on IAM dataset via Kaggle. Full-page inference using OpenCV text-region detection. Zero external OCR engines — built from scratch.</p>
       <p>
         <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
         <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white"/>
@@ -114,7 +117,7 @@ I'm a **Computer Science student** with a strong interest in building backend sy
   <tr>
     <td width="50%" valign="top">
       <h3>🎓 Campus Connect LMS</h3>
-      <p>Full learning management system with <strong>Student, Faculty, and Admin</strong> dashboards. Custom AbstractUser model, role-based permissions, course management, assignment submission, grading.</p>
+      <p>Full learning management system with <strong>Student, Faculty & Admin</strong> dashboards. Custom AbstractUser model, role-based permissions, course management, assignment submission, and grading workflows.</p>
       <p>
         <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
         <img src="https://img.shields.io/badge/DRF-ff1709?style=flat-square&logo=django&logoColor=white"/>
@@ -127,7 +130,7 @@ I'm a **Computer Science student** with a strong interest in building backend sy
     </td>
     <td width="50%" valign="top">
       <h3>📈 BizAnalytics – Sales Analyzer</h3>
-      <p>Django backend with <strong>JWT authentication</strong> and 7 Chart.js visualizations on a grocery sales dataset. Three-page app: Landing, Login, Dashboard. Power BI report included.</p>
+      <p>Full-stack analytics dashboard with <strong>JWT authentication</strong> and 7 Chart.js visualizations on a grocery sales dataset. Three-page app: Landing, Login, Dashboard. Power BI report included.</p>
       <p>
         <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
         <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
@@ -147,14 +150,11 @@ I'm a **Computer Science student** with a strong interest in building backend sy
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Satya0418&show_icons=true&theme=github_dark&hide_border=true&title_color=0891b2&icon_color=38bdf8&text_color=e6edf3&bg_color=0d1117&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satya0418&layout=compact&theme=github_dark&hide_border=true&title_color=0891b2&text_color=e6edf3&bg_color=0d1117&langs_count=6"/>
+[![GitHub Streak](https://streak-stats.demolab.com?user=Satya0418&theme=dark&hide_border=true&stroke=0891b2&ring=0891b2&fire=38bdf8&currStreakLabel=38bdf8&background=0d1117&sideLabels=e6edf3&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff)](https://github.com/Satya0418)
 
-</div>
+<br/>
 
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Satya0418&theme=dark&hide_border=true&stroke=0891b2&ring=0891b2&fire=38bdf8&currStreakLabel=38bdf8&background=0d1117)
+[![Satya's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Satya0418&bg_color=0d1117&color=38bdf8&line=0891b2&point=ffffff&area=true&hide_border=true)](https://github.com/Satya0418)
 
 </div>
 
@@ -164,6 +164,6 @@ I'm a **Computer Science student** with a strong interest in building backend sy
 
 ### 💬 "Build systems that actually solve problems — not just demos that look impressive."
 
-<img src="https://komarev.com/ghpvc/?username=Satya0418&label=Profile+Views&color=0891b2&style=flat-square" alt="Profile views" />
+![Profile Views](https://komarev.com/ghpvc/?username=Satya0418&label=Profile+Views&color=0891b2&style=flat-square)
 
 </div>
