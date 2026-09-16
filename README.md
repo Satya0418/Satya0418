@@ -12,7 +12,7 @@
 
 ## 🧑‍💻 About Me
 
-
+<img align="right" width="380" src="assets/workspace_animated.gif" alt="Developer Workspace" />
 
 I'm a **4th year AI & Machine Learning student** who builds backend systems and applied AI solutions that solve real problems — not just demos.
 
