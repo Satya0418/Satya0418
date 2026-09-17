@@ -160,7 +160,7 @@ I'm a **4th year AI & Machine Learning student** who builds backend systems and 
 
 <br/>
 
-[![Satya's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Satya0418&bg_color=0d1117&color=38bdf8&line=0891b2&point=ffffff&area=true&hide_border=true)](https://github.com/Satya0418)
+[![Satya's GitHub Contributions](https://ghchart.rshah.org/0891b2/Satya0418)](https://github.com/Satya0418)
 
 </div>
 
