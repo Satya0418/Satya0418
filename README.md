@@ -156,11 +156,7 @@ I'm a **4th year AI & Machine Learning student** who builds backend systems and 
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Satya0418&theme=dark&hide_border=true&stroke=0891b2&ring=0891b2&fire=38bdf8&currStreakLabel=38bdf8&background=0d1117&sideLabels=e6edf3&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff)](https://github.com/Satya0418)
-
-<br/>
-
-[![Satya's GitHub Contributions](https://ghchart.rshah.org/0891b2/Satya0418)](https://github.com/Satya0418)
+[![GitHub Streak](https://streak-stats.vercel.app?user=Satya0418&theme=dark&hide_border=true&stroke=0891b2&ring=0891b2&fire=38bdf8&currStreakLabel=38bdf8&background=0d1117&sideLabels=e6edf3&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff)](https://github.com/Satya0418)
 
 </div>
 
