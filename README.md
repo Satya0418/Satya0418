@@ -3,8 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="mailto:satyaprakash9923@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://github.com/Satya0418"><img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
@@ -14,26 +13,28 @@
 
 <img align="right" width="380" src="assets/final.gif" alt="Developer Workspace" />
 
-I'm a **4th year AI & Machine Learning student** who builds backend systems and applied AI solutions that solve real problems — not just demos.
+I'm a **4th year AI & Machine Learning student** who builds robust backend architectures, distributed pipelines, and applied AI systems that solve real-world problems — not just toy demos.
 
 🏥 Built a **multi-authority pharmaceutical regulatory platform** that crawls FDA, Health Canada, TGA, MedWatch & UK MHRA concurrently and detects drug safety label changes in real time.
 
-✍️ Built a **custom OCR engine from scratch** — a CRNN model trained on IAM handwriting data. No Tesseract, no cloud APIs.
+✍️ Built a **custom OCR engine from scratch** — a deep learning CRNN model trained on IAM handwriting data. No Tesseract, no cloud APIs.
 
-🎓 Built a **full LMS platform** (Campus Connect) with multi-role dashboards for students, faculty, and admins.
+🎓 Built a **full-featured LMS platform** (Campus Connect) with dedicated role-based workflows for students, faculty, and administrators.
 
-📊 Built a **sales analytics dashboard** with JWT auth and 7 interactive Chart.js visualizations.
+🌾 Built a **direct-to-consumer agri-marketplace** (Farmer Marketplace) connecting local farmers directly with consumers with dynamic pricing, cart, and reviews.
+
+⚔️ Built **CodeArena**, a competitive programming platform with sandboxed Docker code execution, 1v1 battles, Celery queues, and anti-cheat proctoring.
 
 ---
 
 ## 🚀 More About Me
 
-- 🤖 **AIML student** — I don't just study ML theory, I build inference pipelines around real models
-- 🔍 I like problems where data is messy, distributed, or locked inside PDFs and images
-- ⚙️ My stack: **FastAPI · Django · TensorFlow · OpenCV · MongoDB · Redis · Pandas**
-- 🧪 I write tests (pytest) and think about production infra (nginx, systemd, Docker)
-- 📌 All serious projects are on [GitHub](https://github.com/Satya0418)
-- 📬 Reach out via [LinkedIn](https://linkedin.com/in/your-linkedin)
+- 🤖 **AIML student** — I don't just study ML theory, I build inference pipelines and production backends around real models
+- 🔍 I enjoy solving hard engineering challenges where data is messy, distributed, or locked inside PDFs and images
+- ⚙️ Core stack: **FastAPI · Django · DRF · TensorFlow · OpenCV · Docker · Celery · Redis · PostgreSQL · MongoDB**
+- 🧪 I write deterministic tests (`pytest`) and design with production infra in mind (`nginx`, `systemd`, `Docker`)
+- 📌 All featured projects are public on [GitHub](https://github.com/Satya0418)
+- 📬 Reach out directly via email at [satyaprakash9923@gmail.com](mailto:satyaprakash9923@gmail.com)
 
 <br clear="right"/>
 
@@ -63,9 +64,11 @@ I'm a **4th year AI & Machine Learning student** who builds backend systems and 
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![DRF](https://img.shields.io/badge/Django_REST-ff1709?style=for-the-badge&logo=django&logoColor=white)
 ![asyncio](https://img.shields.io/badge/asyncio-0891b2?style=for-the-badge&logo=python&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
 
 **Databases**
 
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
@@ -74,6 +77,7 @@ I'm a **4th year AI & Machine Learning student** who builds backend systems and 
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
 
 **Infra & Tools**
@@ -91,8 +95,8 @@ I'm a **4th year AI & Machine Learning student** who builds backend systems and 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🏥 Medicine Safety Intelligence Platform</h3>
-      <p>Autonomously crawls <strong>5 international regulatory authorities</strong> (FDA, Health Canada, TGA, MedWatch, UK MHRA) in parallel. Detects drug safety label changes via SHA-256 hashing. REST API + Web UI + CSV export. Production deployment with nginx + systemd.</p>
+      <h3>🏥 Medicine Safety Intelligence Platform (Web Crawler)</h3>
+      <p>Autonomously crawls <strong>5 international regulatory authorities</strong> (FDA, Health Canada, TGA Australia, MedWatch, UK MHRA) in parallel with <code>asyncio</code>. Detects drug safety label revisions via deterministic SHA-256 hashing and extracts clinical sections from complex PBRER PDFs. REST API + Web UI + CSV export. Production deployment with Nginx + systemd.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
@@ -100,6 +104,7 @@ I'm a **4th year AI & Machine Learning student** who builds backend systems and 
         <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
         <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white"/>
         <img src="https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
       </p>
       <a href="https://github.com/Satya0418/webcrawler">
         <img src="https://img.shields.io/badge/View_Repository-0891b2?style=for-the-badge&logo=github&logoColor=white"/>
@@ -107,13 +112,14 @@ I'm a **4th year AI & Machine Learning student** who builds backend systems and 
     </td>
     <td width="50%" valign="top">
       <h3>✍️ Parseon OCR Engine</h3>
-      <p>Custom <strong>CRNN (CNN + BiLSTM + CTC)</strong> handwriting recognition trained on IAM dataset via Kaggle. Full-page inference using OpenCV text-region detection. Zero external OCR engines — built from scratch.</p>
+      <p>Custom deep learning <strong>CRNN (CNN + BiLSTM + CTC Loss)</strong> handwriting recognition engine trained from scratch on the IAM dataset via Kaggle. Full-page document inference using OpenCV text-line and contour segmentation. Zero external OCR engines or paid cloud APIs.</p>
       <p>
         <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
         <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white"/>
         <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
         <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white"/>
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
       </p>
       <a href="https://github.com/Satya0418/parseon-ocr">
         <img src="https://img.shields.io/badge/View_Repository-0891b2?style=for-the-badge&logo=github&logoColor=white"/>
@@ -123,27 +129,50 @@ I'm a **4th year AI & Machine Learning student** who builds backend systems and 
   <tr>
     <td width="50%" valign="top">
       <h3>🎓 Campus Connect LMS</h3>
-      <p>Full learning management system with <strong>Student, Faculty & Admin</strong> dashboards. Custom AbstractUser model, role-based permissions, course management, assignment submission, and grading workflows.</p>
+      <p>Full-scale educational LMS platform with dedicated role-based dashboards for <strong>Students, Faculty & Admins</strong>. Features custom AbstractUser models, DRF API endpoints, course management, syllabus hosting, assignment submissions, automated and manual grading workflows, and academic scheduling.</p>
       <p>
         <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
         <img src="https://img.shields.io/badge/DRF-ff1709?style=flat-square&logo=django&logoColor=white"/>
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
         <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
       </p>
       <a href="https://github.com/Satya0418/Campus_connect">
         <img src="https://img.shields.io/badge/View_Repository-0891b2?style=for-the-badge&logo=github&logoColor=white"/>
       </a>
     </td>
     <td width="50%" valign="top">
-      <h3>📈 BizAnalytics – Sales Analyzer</h3>
-      <p>Full-stack analytics dashboard with <strong>JWT authentication</strong> and 7 Chart.js visualizations on a grocery sales dataset. Three-page app: Landing, Login, Dashboard. Power BI report included.</p>
+      <h3>🌾 Farmer Marketplace</h3>
+      <p>Direct-to-Consumer (D2C) agricultural e-commerce platform that connects local farmers directly with buyers. Features dynamic multi-unit pricing (kg, dozen, packs), farm location tagging, real-time shopping cart, wishlists/favorites, customer review & rating system, and secure Django session/OAuth authentication with a modern React + Vite frontend.</p>
       <p>
         <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/>
+        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
       </p>
-      <a href="https://github.com/Satya0418/Sales_Analyzer">
+      <a href="https://github.com/Abhi-engg/Farmer-Marketplace">
+        <img src="https://img.shields.io/badge/View_Repository-0891b2?style=for-the-badge&logo=github&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>⚔️ CodeArena – Competitive Programming & Battle Platform</h3>
+      <p>Full-scale online judge and competitive coding arena built for a hackathon. Features a <strong>sandboxed Docker execution engine</strong> for multi-language code evaluation, real-time <strong>1v1 coding battles</strong>, timed algorithmic contests, automated anti-cheat proctoring, and live leaderboards. Backed by asynchronous Celery & Redis task queues with Django REST Framework and a responsive React + Tailwind CSS frontend.</p>
+      <p>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/>
+      </p>
+      <a href="https://github.com/Mandlesh/CodeArena">
         <img src="https://img.shields.io/badge/View_Repository-0891b2?style=for-the-badge&logo=github&logoColor=white"/>
       </a>
     </td>
